@@ -5,30 +5,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Barbearia Alura</title>
-  <link href ="reset.css" rel= "stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href ="reset.css" rel= "stylesheet">
+  <link href="style-principal.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <header>
-    <h1 class= "titulo-principal">Barbearia alura</h1>
+    <div class="caixa">
+    <h1><img src="logo.png"></h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    </div>
   </header>
-  <img id="banner" src= "banner.jpg">
+  <img class="banner" src= "banner.jpg">
 
-  <div class="principal">
+<main>
 
-  <h1 style="text-align: center">Sobre a Barbearia Samuel</h1>
+  <section class="principal">
 
-  <p><i>Localizada no coração da cidade de Curitiba a <strong>barbearia Samuel</strong>traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2023, a barbearia Samuel já é um destaque na cidade e conquista novos clientes a cada dia.</i></p> 
+  <h2 class= "titulo-principal">Sobre a Barbearia Stasiak</h2>
+
+<img src="utensilios.jpg" class="utensilios" alt= "Utensilios por um barbeiro.">
+
+  <p><i>Localizada no coração da cidade do coronel vivida a <strong>barbearia Stasiak </strong>traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2023, a barbearia Stasiak já é um destaque na cidade e conquista novos clientes a cada dia.</i></p> 
 
  <p id="missao"><i><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em> </i></p>
 
   <p>Oferecemos profissionais experientes e antenados as mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo a satisfação e a qualidade para nossos clientes.</p>
 </div>
 
-  <div class="beneficios">
-  <h3 class= "texto-centralizado">Beneficios</h3>
+  <section class="beneficios">
+  <h3 class= "titulo-principal">Benefícios</h3>
   <ul>
     <li class="item">Atendimento aos clientes</li>
     <li class="item">Espaço diferenciado</li>
@@ -36,10 +49,14 @@
     <li class="item">Profissionais Qualificados</li>
   </ul>
   <img class="imagem-beneficios" src="beneficios.jpg">
-  </div>
+  </section>
 
+</main>
 
-  <a href="produtos.html">produtos</a>
+  <footer>
+  <img src="./logo-branco.png">
+  <p class="copyright"> &#169; Copyright Barbearia Alura -2019</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 

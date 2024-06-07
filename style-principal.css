@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 header{
-  background: #5be4e6;
+  background: #12a6c4;
   padding: 20px 0;
 }
 
@@ -28,7 +35,7 @@ nav a{
   font-size:22px;
 }
 nav a:hover{
-  color: #5e811d;
+  color: #1ee41b;
   text-decoration: underline;
 }
 
@@ -46,17 +53,17 @@ nav a:hover{
   margin: 0 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: 2px solid #a93d3d;
+  border: 2px solid #000000;
 }
 .produtos li:hover{
-  border-color:#35b137;
+  border-color:#2ca9c9;
 }
 .produtos li:hover h2{
   font-size:34px;
 }
 
 produtos li:active{
-  border-color:#1c3082;
+  border-color:#2291c9;
 }
 
 .produtos h2{
@@ -82,21 +89,88 @@ footer{
   font-size:13px;
   margin-top:20px;
 }
+
 main{
   width: 940px;
   margin: 0 auto;
 }
+
 form{
   margin: 40px 0;
 }
-form label{
+
+form label, form legend{
   display:block;
-  font-size:20px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
-form input{
-  display: block;
+
+.input-padrao{
+  display:block;
   margin-bottom: 20px;
   padding: 10px 25px;
   width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+.enviar{
+  width: 40%;
+  padding:15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+ cursor: pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+table{
+  margin:20px 0 40px 0;
+}
+
+thead{
+  background: #555555;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+
+.banner{
+  width: 100%
+}
+titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.principal p{
+  margin: 0 0 1em;
+}
+
+.principal strong{
+  font-weight: bold;
+}
+
+.principal em{
+  font-size: italic;
+}
+
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
